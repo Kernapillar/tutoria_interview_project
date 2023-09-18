@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+ .bg-grey {
+    background-color: lightgray; 
+  }
+  
+  .text-blue {
+    color: rgb(58, 192, 237);
+  }
+  .message-card {
+    width: 45%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    border: none !important;
+    
+  }

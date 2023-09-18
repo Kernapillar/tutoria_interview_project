@@ -1,6 +1,6 @@
 class MessagesController < ApplicationController
     def index
-        @message = Message.order(:user)
+        @messages = Message.order(:created_at)
     end
 
 end
